@@ -1,9 +1,9 @@
 //
 //  WelcomeViewController.swift
-//  Flash Chat iOS13
+//  Flash Chat iOS14
 //
-//  Created by Angela Yu on 21/10/2019.
-//  Copyright © 2019 Angela Yu. All rights reserved.
+//  Created by Jay Ramirez on 21/10/2021.
+//  Copyright © 2021 Jay Ramirez. All rights reserved.
 //
 
 import UIKit
@@ -14,7 +14,18 @@ class WelcomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        titleLabel.text = ""
+        var charIndex = 0.0
+        let titleText = "⚡️FlashChat"
+        
+        for letter in titleText {
+            Timer.scheduledTimer(withTimeInterval: 0.1 * charIndex, repeats: false, block: { (timer) in
+                self.titleLabel.text?.append(letter)
+                
+            })
+            charIndex += 1
+        }
        
     }
     

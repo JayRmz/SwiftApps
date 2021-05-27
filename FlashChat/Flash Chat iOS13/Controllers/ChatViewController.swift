@@ -2,8 +2,8 @@
 //  ChatViewController.swift
 //  Flash Chat iOS13
 //
-//  Created by Angela Yu on 21/10/2019.
-//  Copyright © 2019 Angela Yu. All rights reserved.
+//  Created by Jay Ramirez on 21/10/2021.
+//  Copyright © 2021 Jay Ramirez. All rights reserved.
 //
 
 import UIKit
